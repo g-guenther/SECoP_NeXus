@@ -2,7 +2,7 @@
 
 The modifications according to the deliverable of WP2 are implemented in the ./protocol/nexus/definitions directory which is a clone of https://github.com/nexusformat/definitions.git. The modifications according to WP2 are sketched in ./protocol/nexus/2024_08_SECoP_NeXus_2.pptx or ./protocol/nexus/2024_08_SECoP_NeXus_2.pdf, respectively. Some modifications were discussed at https://github.com/jkotan/secop-file-examples/issues.
 
-Clone the SECoP repository to a local source, switch to the definitions branch, and open the file definitions/build/manual/build/html/index.html in your browser, e.g. using the command 'firefox protocol/nexus/definitions/build/manual/build/html/index.html', to browse the modified NeXus documentation.
+Clone the SECoP repository to a local source and open the file definitions/build/manual/build/html/index.html in your browser, e.g. using the command 'firefox protocol/nexus/definitions/build/manual/build/html/index.html', to browse the modified NeXus documentation.
 
 The following changes were applied:
 
