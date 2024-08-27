@@ -40,7 +40,7 @@
 		<symbol name="n_resist"><doc>number of resistance values</doc></symbol>
 		<symbol name="n_sField"><doc>number of values in applied stress field</doc></symbol>
 		<symbol name="n_shear"><doc>number of shear values</doc></symbol>
-		<symbol name="n_sPressure"><doc>number of values in applied pressure field</doc></symbol>
+		<symbol name="n_sPressure"><doc>number of values in applied surface pressure field</doc></symbol>
 		<symbol name="n_strain"><doc>number of strain values</doc></symbol>
 		<symbol name="n_Temp"><doc>number of temperatures</doc></symbol>
 		<symbol name="n_volt"><doc>number of values in applied voltage</doc></symbol>

@@ -49,7 +49,7 @@ NXsample
 
   **n_shear**: number of shear values
 
-  **n_sPressure**: number of values in applied pressure field
+  **n_sPressure**: number of values in applied surface pressure field
 
   **n_strain**: number of strain values
 
