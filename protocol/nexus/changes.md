@@ -34,10 +34,7 @@ The following changes were applied:
     - conductivity
     - resistance
     - viscosity
-- adding (arbitrary) ENVIRONMENT groups to NXsample 
-- modifying temperature field in NXsample according to similar fields (e.g. magnetic_field):
-  - changing rank from 'anyRank' to 1
-  - removing 'This could be a scanned variable'
+- adding (arbitrary) ENVIRONMENT groups to NXsample
 
 Two more general things:
 - There was a discussion about adding a separate NXsample group for sample environment (which I don't like so much because 2 NXsample groups could introduce some ambiguity). However, the changes made to NXsensor and NXsample are required independently of realisation.

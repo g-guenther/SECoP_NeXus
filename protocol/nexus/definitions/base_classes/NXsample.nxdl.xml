@@ -79,8 +79,8 @@
 		</doc>
 	</field>
 	<field name="temperature" type="NX_FLOAT" units="NX_TEMPERATURE">
-		<doc>Sample temperature</doc>
-		<dimensions>
+		<doc>Sample temperature. This could be a scanned variable</doc>
+		<dimensions rank="anyRank">
 			<dim index="1" value="n_Temp"/><!-- could be any length -->
 		</dimensions>
 	</field>

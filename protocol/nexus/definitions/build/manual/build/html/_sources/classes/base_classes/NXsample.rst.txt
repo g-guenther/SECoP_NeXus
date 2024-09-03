@@ -121,9 +121,9 @@ NXsample
 
   .. index:: temperature (field)
 
-  **temperature**: (optional) :ref:`NX_FLOAT <NX_FLOAT>` (Rank: 1, Dimensions: [n_Temp]) {units=\ :ref:`NX_TEMPERATURE <NX_TEMPERATURE>`} 
+  **temperature**: (optional) :ref:`NX_FLOAT <NX_FLOAT>` (Rank: anyRank, Dimensions: [n_Temp]) {units=\ :ref:`NX_TEMPERATURE <NX_TEMPERATURE>`} 
 
-    Sample temperature
+    Sample temperature. This could be a scanned variable
 
   .. _/NXsample/electric_field-field:
 
