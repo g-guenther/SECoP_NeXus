@@ -754,6 +754,18 @@ NXsample
 
     Additional sample pH environment information
 
+  .. _/NXsample/conductivity_env-group:
+
+  **conductivity_env**: (optional) :ref:`NXenvironment` 
+
+    Additional sample conductivity environment information
+
+  .. _/NXsample/resistance_env-group:
+
+  **resistance_env**: (optional) :ref:`NXenvironment` 
+
+    Additional sample resistance environment information
+
   .. _/NXsample/voltage_env-group:
 
   **voltage_env**: (optional) :ref:`NXenvironment` 
@@ -789,6 +801,12 @@ NXsample
   **humidity_env**: (optional) :ref:`NXenvironment` 
 
     Additional sample humidity environment information
+
+  .. _/NXsample/viscosity_env-group:
+
+  **viscosity_env**: (optional) :ref:`NXenvironment` 
+
+    Additional sample viscosity environment information
 
   .. _/NXsample/concentration_env-group:
 
@@ -839,6 +857,7 @@ attributes, and links defined in this class.
 * :ref:`/NXsample/concentration-field </NXsample/concentration-field>`
 * :ref:`/NXsample/concentration_env-group </NXsample/concentration_env-group>`
 * :ref:`/NXsample/conductivity-field </NXsample/conductivity-field>`
+* :ref:`/NXsample/conductivity_env-group </NXsample/conductivity_env-group>`
 * :ref:`/NXsample/density-field </NXsample/density-field>`
 * :ref:`/NXsample/depends_on-field </NXsample/depends_on-field>`
 * :ref:`/NXsample/description-field </NXsample/description-field>`
@@ -874,6 +893,7 @@ attributes, and links defined in this class.
 * :ref:`/NXsample/pressure_env-group </NXsample/pressure_env-group>`
 * :ref:`/NXsample/relative_molecular_mass-field </NXsample/relative_molecular_mass-field>`
 * :ref:`/NXsample/resistance-field </NXsample/resistance-field>`
+* :ref:`/NXsample/resistance_env-group </NXsample/resistance_env-group>`
 * :ref:`/NXsample/rotation_angle-field </NXsample/rotation_angle-field>`
 * :ref:`/NXsample/sample_component-field </NXsample/sample_component-field>`
 * :ref:`/NXsample/SAMPLE_COMPONENT-group </NXsample/SAMPLE_COMPONENT-group>`
@@ -908,6 +928,7 @@ attributes, and links defined in this class.
 * :ref:`/NXsample/unit_cell_class-field </NXsample/unit_cell_class-field>`
 * :ref:`/NXsample/unit_cell_volume-field </NXsample/unit_cell_volume-field>`
 * :ref:`/NXsample/viscosity-field </NXsample/viscosity-field>`
+* :ref:`/NXsample/viscosity_env-group </NXsample/viscosity_env-group>`
 * :ref:`/NXsample/voltage-field </NXsample/voltage-field>`
 * :ref:`/NXsample/voltage_env-group </NXsample/voltage_env-group>`
 * :ref:`/NXsample/volume_fraction-field </NXsample/volume_fraction-field>`

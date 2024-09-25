@@ -1,5 +1,5 @@
 _metadata:
-  datetime: '2024-09-03T07:23:13.571490'
+  datetime: '2024-09-25T10:01:23.431019'
   subtitle: Anchors for all NeXus fields, groups, attributes, and links.
   title: NeXus NXDL vocabulary.
   version: v2024.02
@@ -1256,6 +1256,10 @@ terms:
       html: '#nximage-set-em-kikuchi-stack-pattern-identifier-long-name-attribute'
       term: /NXimage_set_em_kikuchi/stack/pattern_identifier@long_name-attribute
       url: https://manual.nexusformat.org/classes/contributed_definitions/NXimage_set_em_kikuchi.html#nximage-set-em-kikuchi-stack-pattern-identifier-long-name-attribute
+    /NXsensor/measurement@long_name-attribute:
+      html: '#nxsensor-measurement-long-name-attribute'
+      term: /NXsensor/measurement@long_name-attribute
+      url: https://manual.nexusformat.org/classes/base_classes/NXsensor.html#nxsensor-measurement-long-name-attribute
     /NXspectrum_set/stack/axis_energy@long_name-attribute:
       html: '#nxspectrum-set-stack-axis-energy-long-name-attribute'
       term: /NXspectrum_set/stack/axis_energy@long_name-attribute
@@ -1436,6 +1440,11 @@ terms:
       html: '#nxtransformations-axisname-offset-units-attribute'
       term: /NXtransformations/AXISNAME@offset_units-attribute
       url: https://manual.nexusformat.org/classes/base_classes/NXtransformations.html#nxtransformations-axisname-offset-units-attribute
+  '@pid':
+    /NXsensor/measurement@PID-attribute:
+      html: '#nxsensor-measurement-pid-attribute'
+      term: /NXsensor/measurement@PID-attribute
+      url: https://manual.nexusformat.org/classes/base_classes/NXsensor.html#nxsensor-measurement-pid-attribute
   '@populated_elements':
     /NXxpcs/entry/twotime/two_time_corr_func@populated_elements-attribute:
       html: '#nxxpcs-entry-twotime-two-time-corr-func-populated-elements-attribute'
@@ -6903,6 +6912,11 @@ terms:
       html: '#nxsample-conductivity-field'
       term: /NXsample/conductivity-field
       url: https://manual.nexusformat.org/classes/base_classes/NXsample.html#nxsample-conductivity-field
+  conductivity_env:
+    /NXsample/conductivity_env-group:
+      html: '#nxsample-conductivity-env-group'
+      term: /NXsample/conductivity_env-group
+      url: https://manual.nexusformat.org/classes/base_classes/NXsample.html#nxsample-conductivity-env-group
   config_filename:
     /NXapm_composition_space_results/ENTRY/config_filename-field:
       html: '#nxapm-composition-space-results-entry-config-filename-field'
@@ -10261,6 +10275,10 @@ terms:
       html: '#nxsample-component-description-field'
       term: /NXsample_component/description-field
       url: https://manual.nexusformat.org/classes/base_classes/NXsample_component.html#nxsample-component-description-field
+    /NXsensor/description-field:
+      html: '#nxsensor-description-field'
+      term: /NXsensor/description-field
+      url: https://manual.nexusformat.org/classes/base_classes/NXsensor.html#nxsensor-description-field
     /NXseparator/description-field:
       html: '#nxseparator-description-field'
       term: /NXseparator/description-field
@@ -24269,6 +24287,11 @@ terms:
       html: '#nxsample-resistance-field'
       term: /NXsample/resistance-field
       url: https://manual.nexusformat.org/classes/base_classes/NXsample.html#nxsample-resistance-field
+  resistance_env:
+    /NXsample/resistance_env-group:
+      html: '#nxsample-resistance-env-group'
+      term: /NXsample/resistance_env-group
+      url: https://manual.nexusformat.org/classes/base_classes/NXsample.html#nxsample-resistance-env-group
   response_time:
     /NXtransmission/ENTRY/instrument/DETECTOR/response_time-field:
       html: '#nxtransmission-entry-instrument-detector-response-time-field'
@@ -27352,6 +27375,11 @@ terms:
       html: '#nxpositioner-target-value-field'
       term: /NXpositioner/target_value-field
       url: https://manual.nexusformat.org/classes/base_classes/NXpositioner.html#nxpositioner-target-value-field
+  target_value_log:
+    /NXsensor/target_value_log-group:
+      html: '#nxsensor-target-value-log-group'
+      term: /NXsensor/target_value_log-group
+      url: https://manual.nexusformat.org/classes/base_classes/NXsensor.html#nxsensor-target-value-log-group
   targets:
     /NXapm_paraprobe_results_clusterer/ENTRY/PROCESS/cluster_analysis/dbscanID/targets-field:
       html: '#nxapm-paraprobe-results-clusterer-entry-process-cluster-analysis-dbscanid-targets-field'
@@ -30911,6 +30939,11 @@ terms:
       html: '#nxsample-viscosity-field'
       term: /NXsample/viscosity-field
       url: https://manual.nexusformat.org/classes/base_classes/NXsample.html#nxsample-viscosity-field
+  viscosity_env:
+    /NXsample/viscosity_env-group:
+      html: '#nxsample-viscosity-env-group'
+      term: /NXsample/viscosity_env-group
+      url: https://manual.nexusformat.org/classes/base_classes/NXsample.html#nxsample-viscosity-env-group
   visualization:
     /NXapm/ENTRY/atom_probe/reconstruction/visualization-group:
       html: '#nxapm-entry-atom-probe-reconstruction-visualization-group'

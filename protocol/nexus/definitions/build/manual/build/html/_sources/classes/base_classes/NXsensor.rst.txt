@@ -84,6 +84,14 @@ NXsensor
 
     where sensor is attached to ("sample" | "can")
 
+  .. _/NXsensor/description-field:
+
+  .. index:: description (field)
+
+  **description**: (optional) :ref:`NX_CHAR <NX_CHAR>` 
+
+    Description of sensor
+
   .. _/NXsensor/measurement-field:
 
   .. index:: measurement (field)
@@ -128,6 +136,22 @@ NXsensor
 
           * ``concentration``
 
+
+    .. _/NXsensor/measurement@long_name-attribute:
+
+    .. index:: long_name (field attribute)
+
+    **@long_name**: (optional) :ref:`NX_CHAR <NX_CHAR>` 
+
+      Long name of measurement (e.g. 'sample temperature')
+
+    .. _/NXsensor/measurement@PID-attribute:
+
+    .. index:: PID (field attribute)
+
+    **@PID**: (optional) :ref:`NX_CHAR <NX_CHAR>` 
+
+      URL/PID of semantic artefact file (e.g. ontology) defining the measured signal
 
   .. _/NXsensor/type-field:
 
@@ -283,6 +307,12 @@ NXsensor
 
     Time history of second derivative of sensor readings
 
+  .. _/NXsensor/target_value_log-group:
+
+  **target_value_log**: (optional) :ref:`NXlog` 
+
+    Time history of sensor settings (nominal values)
+
   .. _/NXsensor/external_field_full-group:
 
   **external_field_full**: (optional) :ref:`NXorientation` 
@@ -316,17 +346,21 @@ attributes, and links defined in this class.
 
 * :ref:`/NXsensor/attached_to-field </NXsensor/attached_to-field>`
 * :ref:`/NXsensor/depends_on-field </NXsensor/depends_on-field>`
+* :ref:`/NXsensor/description-field </NXsensor/description-field>`
 * :ref:`/NXsensor/external_field_brief-field </NXsensor/external_field_brief-field>`
 * :ref:`/NXsensor/external_field_full-group </NXsensor/external_field_full-group>`
 * :ref:`/NXsensor/geometry-group </NXsensor/geometry-group>`
 * :ref:`/NXsensor/high_trip_value-field </NXsensor/high_trip_value-field>`
 * :ref:`/NXsensor/low_trip_value-field </NXsensor/low_trip_value-field>`
 * :ref:`/NXsensor/measurement-field </NXsensor/measurement-field>`
+* :ref:`/NXsensor/measurement@long_name-attribute </NXsensor/measurement@long_name-attribute>`
+* :ref:`/NXsensor/measurement@PID-attribute </NXsensor/measurement@PID-attribute>`
 * :ref:`/NXsensor/model-field </NXsensor/model-field>`
 * :ref:`/NXsensor/name-field </NXsensor/name-field>`
 * :ref:`/NXsensor/OFF_GEOMETRY-group </NXsensor/OFF_GEOMETRY-group>`
 * :ref:`/NXsensor/run_control-field </NXsensor/run_control-field>`
 * :ref:`/NXsensor/short_name-field </NXsensor/short_name-field>`
+* :ref:`/NXsensor/target_value_log-group </NXsensor/target_value_log-group>`
 * :ref:`/NXsensor/TRANSFORMATIONS-group </NXsensor/TRANSFORMATIONS-group>`
 * :ref:`/NXsensor/type-field </NXsensor/type-field>`
 * :ref:`/NXsensor/value-field </NXsensor/value-field>`

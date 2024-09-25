@@ -6234,6 +6234,7 @@
 /NXsample/concentration-field
 /NXsample/concentration_env-group
 /NXsample/conductivity-field
+/NXsample/conductivity_env-group
 /NXsample/density-field
 /NXsample/depends_on-field
 /NXsample/description-field
@@ -6266,6 +6267,7 @@
 /NXsample/pressure_env-group
 /NXsample/relative_molecular_mass-field
 /NXsample/resistance-field
+/NXsample/resistance_env-group
 /NXsample/rotation_angle-field
 /NXsample/sample_component-field
 /NXsample/sample_orientation-field
@@ -6298,6 +6300,7 @@
 /NXsample/unit_cell_class-field
 /NXsample/unit_cell_volume-field
 /NXsample/viscosity-field
+/NXsample/viscosity_env-group
 /NXsample/voltage-field
 /NXsample/voltage_env-group
 /NXsample/volume_fraction-field
@@ -6428,16 +6431,20 @@
 /NXsensor/TRANSFORMATIONS-group
 /NXsensor/attached_to-field
 /NXsensor/depends_on-field
+/NXsensor/description-field
 /NXsensor/external_field_brief-field
 /NXsensor/external_field_full-group
 /NXsensor/geometry-group
 /NXsensor/high_trip_value-field
 /NXsensor/low_trip_value-field
 /NXsensor/measurement-field
+/NXsensor/measurement@PID-attribute
+/NXsensor/measurement@long_name-attribute
 /NXsensor/model-field
 /NXsensor/name-field
 /NXsensor/run_control-field
 /NXsensor/short_name-field
+/NXsensor/target_value_log-group
 /NXsensor/type-field
 /NXsensor/value-field
 /NXsensor/value_deriv1-field

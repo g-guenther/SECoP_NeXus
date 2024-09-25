@@ -30,11 +30,24 @@ The following changes were applied:
   - surface_pressure_env
   - humidity_env
   - concentration_env
-  - Since I am not sure if these properties are controlled by environments, the following environment groups were NOT added:
-    - conductivity
-    - resistance
-    - viscosity
+  - conductivity
+  - resistance
+  - viscosity
 - adding (arbitrary) ENVIRONMENT groups to NXsample
+- adding description field to NXsensor
+- adding target_value_log group to NXsensor for sensor settings/nominal values
+- adding @PID attribute to NXsensor/measurement field (to contain SECoP's meaning/link)
+- adding @long_name attribute to NXsensor/measurement field (to contain SECoP's meaning/key)
+
+---------------------------------------
+As a result, the free structure of sample environments in this definition is supported by
+  - any number of NXenvironments (SECoP nodes) in NXsample
+  - any number of NXsensors (SECoP parameters) in NXenvironment
+  - any number of NXlogs (any SECoP data fields) can be added anywhere as a NeXus design principal, see build/manual/build/html/design.html
+
+NOT added:
+  - explicit field status_log to NXsensor because NXlog values must be numbers and, I guess, the status of a sensor could be either a number or a string (like 'idle')
+  - other typical SECoP fields such as meaning/importance because they are rather characteristic for SECoP; there names, arrangement and values should be defined separately by SECoP 
 
 Two more general things:
 - There was a discussion about adding a separate NXsample group for sample environment (which I don't like so much because 2 NXsample groups could introduce some ambiguity). However, the changes made to NXsensor and NXsample are required independently of realisation.

@@ -48,8 +48,15 @@
 			Defines the axes for logged vector quantities if they are not the global instrument axes.
 		</doc>
 	</group>
+	<field name="description">
+		<doc>Description of sensor</doc>
+	</field>
 	<field name="measurement">
 		<doc>name for measured signal</doc>
+		<attribute name="long_name"><doc>Long name of measurement (e.g. 'sample temperature')</doc></attribute>
+		<attribute name="PID">
+			<doc>URL/PID of semantic artefact file (e.g. ontology) defining the measured signal</doc>
+		</attribute>
 		<enumeration>
 			<item value="temperature" />
 			<item value="pH" />
@@ -138,6 +145,9 @@
 	</group>
 	<group name="value_deriv2_log" type="NXlog">
 		<doc>Time history of second derivative of sensor readings</doc>
+	</group>
+	<group name="target_value_log" type="NXlog">
+		<doc>Time history of sensor settings (nominal values)</doc>
 	</group>
 	<field name="external_field_brief">
 		<enumeration>

@@ -467,6 +467,12 @@
 	<group name="pH_env" type="NXenvironment">
 		<doc>Additional sample pH environment information</doc>
 	</group>
+	<group name="conductivity_env" type="NXenvironment">
+		<doc>Additional sample conductivity environment information</doc>
+	</group>
+	<group name="resistance_env" type="NXenvironment">
+		<doc>Additional sample resistance environment information</doc>
+	</group>
 	<group name="voltage_env" type="NXenvironment">
 		<doc>Additional sample voltage environment information</doc>
 	</group>
@@ -484,6 +490,9 @@
 	</group>
 	<group name="humidity_env" type="NXenvironment">
 		<doc>Additional sample humidity environment information</doc>
+	</group>
+	<group name="viscosity_env" type="NXenvironment">
+		<doc>Additional sample viscosity environment information</doc>
 	</group>
 	<group name="concentration_env" type="NXenvironment">
 		<doc>Additional sample concentration environment information</doc>
@@ -539,6 +548,6 @@
             other component groups.
         </doc>
     </group>
-	<group type="NXenvironment" />
+	<group type="NXenvironment"/>
 </definition>
 
