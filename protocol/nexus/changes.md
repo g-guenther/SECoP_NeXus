@@ -30,9 +30,9 @@ The following changes were applied:
   - surface_pressure_env
   - humidity_env
   - concentration_env
-  - conductivity
-  - resistance
-  - viscosity
+  - conductivity_env
+  - resistance_env
+  - viscosity_env
 - adding (arbitrary) ENVIRONMENT groups to NXsample
 - adding description field to NXsensor
 - adding target_value_log group to NXsensor for sensor settings/nominal values
