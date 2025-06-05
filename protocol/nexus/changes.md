@@ -36,14 +36,14 @@ The following changes were applied:
 - adding (arbitrary) ENVIRONMENT groups to NXsample
 - adding description field to NXsensor
 - adding target_value_log group to NXsensor for sensor settings/nominal values
-- adding @PID attribute to NXsensor/measurement field (to contain SECoP's meaning/link)
+- adding @URL attribute to NXsensor/measurement field (to contain SECoP's meaning/link)
 - adding @long_name attribute to NXsensor/measurement field (to contain SECoP's meaning/key)
 
 ---------------------------------------
 As a result, the free structure of sample environments in this definition is supported by
   - any number of NXenvironments (SECoP nodes) in NXsample
   - any number of NXsensors (SECoP parameters) in NXenvironment
-  - any number of NXlogs (any SECoP data fields) can be added anywhere as a NeXus design principal, see build/manual/build/html/design.html
+  - any number of NXlogs (any SECoP data fields) can be added anywhere as a NeXus design principle, see build/manual/build/html/design.html
 
 NOT added:
   - explicit field status_log to NXsensor because NXlog values must be numbers and, I guess, the status of a sensor could be either a number or a string (like 'idle')
